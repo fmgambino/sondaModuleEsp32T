@@ -71,7 +71,7 @@ Este proyecto se enfoca en el diseño y desarrollo de un hardware personalizado 
 2. **Conexión del Módulo NRF24 al ESP32:**
    - Conectar los pines del módulo NRF24 a los pines correspondientes del ESP32 (ver datasheets para detalles específicos de pinout).
 
-### 💻 Código Fuente
+### 💻 Código Fuente Ejemplo V1.0
 
 ```cpp
 #include <Arduino.h>
