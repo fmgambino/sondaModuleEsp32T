@@ -1,0 +1,192 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "B3BXHA"
+      (family "CON")
+      (package "JST_B3BXHA")
+      (description "_Connector_Header_Through_Hole_3_position_0.098_(2.50mm)_")
+      (attribute "PKG_TYPE" "JST_B3BXHA")
+      (attribute "MF" "JST_Sales")
+      (attribute "MAXIMUM_PACKAGE_HEIGHT" "7.00_mm")
+      (attribute "PACKAGE" "None")
+      (attribute "PRICE" "None")
+      (attribute "CHECK_PRICES" "https://www.snapeda.com/parts/B3B-XH-A/JST+Sales+America+Inc./view-part/?ref=eda")
+      (attribute "STANDARD" "Manufacturer_Recommendations")
+      (attribute "PARTREV" "7/4/21")
+      (attribute "SNAPEDA_LINK" "https://www.snapeda.com/parts/B3B-XH-A/JST+Sales+America+Inc./view-part/?ref=snap")
+      (attribute "MP" "B3B-XH-A")
+      (attribute "AVAILABILITY" "In_Stock")
+      (attribute "MANUFACTURER" "JST_Sales_America_Inc.")
+      (gate
+        (swap 1)
+        (symbol "B3BXHA")
+        (pin "1" 1 (type PS))
+        (pin "2" 2 (type PS))
+        (pin "3" 3 (type PS))
+      )
+    )
+    (symbol "B3BXHA"
+      (units THOU)
+      (graphic
+        (stroke 10.0)
+        (path (pt -150.0 150.0) (pt -100.0 200.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -150.0 150.0) (pt -150.0 -150.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -150.0 -150.0) (pt -100.0 -200.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -100.0 -200.0) (pt 150.0 -200.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 150.0 -200.0) (pt 150.0 200.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 150.0 200.0) (pt -100.0 200.0))
+      )
+      (graphic
+        (stroke 1)
+        (path (pt -125 112.5) (pt -62.5 112.5) (pt -62.5 87.5) (pt -125 87.5) (pt -125 112.5) (closed))
+      )
+      (graphic
+        (stroke 1)
+        (path (pt -125 12.5) (pt -62.5 12.5) (pt -62.5 -12.5) (pt -125 -12.5) (pt -125 12.5) (closed))
+      )
+      (graphic
+        (stroke 1)
+        (path (pt -125 -87.5) (pt -62.5 -87.5) (pt -62.5 -112.5) (pt -125 -112.5) (pt -125 -87.5) (closed))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -300.0 100.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -300.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -300.0 -100.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+    )
+    (symbol "PIN_R0_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 200.0 0.0))
+      )
+    )
+    (package "JST_B3BXHA"
+      (units THOU)
+      (layer TSLK
+        (graphic
+          (stroke 5.0)
+          (path (pt -194.88 113.19) (pt 194.88 113.19))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 194.88 113.19) (pt 194.88 -113.19))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 194.88 -113.19) (pt -194.88 -113.19))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -194.88 -113.19) (pt -194.88 113.19))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt 222.44 -20.67) (pt 230.31 -20.67))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 5.0)
+          (path (pt -194.88 113.19) (pt 194.88 113.19))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 194.88 113.19) (pt 194.88 -113.19))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 194.88 -113.19) (pt -194.88 -113.19))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -194.88 -113.19) (pt -194.88 113.19))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt 222.44 -20.67) (pt 230.31 -20.67))
+        )
+      )
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt -204.72 123.03) (pt 204.72 123.03))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 204.72 123.03) (pt 204.72 -123.03))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 204.72 -123.03) (pt -204.72 -123.03))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -204.72 -123.03) (pt -204.72 123.03))
+        )
+      )
+      (leg 1 (pt 98.43 -20.67) (padstack 1))
+      (leg 2 (pt 0 -20.67) (padstack 2))
+      (leg 3 (pt -98.43 -20.67) (padstack 3))
+      (padstack 1
+        (hole 39)
+        (plated true)
+        (pad (layer TCOP) (square 59.37))
+        (pad (layer INNER) (square 59.37))
+        (pad (layer BCOP) (square 59.37))
+        (pad (layer TRES) (square 63.31))
+        (pad (layer BRES) (square 63.31))
+      )
+      (padstack 2
+        (hole 39)
+        (plated true)
+        (pad (layer TCOP) (round 59.37))
+        (pad (layer INNER) (round 59.37))
+        (pad (layer BCOP) (round 59.37))
+        (pad (layer TRES) (round 63.31))
+        (pad (layer BRES) (round 63.31))
+      )
+      (padstack 3
+        (hole 39)
+        (plated true)
+        (pad (layer TCOP) (round 59.37))
+        (pad (layer INNER) (round 59.37))
+        (pad (layer BCOP) (round 59.37))
+        (pad (layer TRES) (round 63.31))
+        (pad (layer BRES) (round 63.31))
+      )
+      (model B3B-XH-A.step
+        (euler 0 0 0)
+        (offset 0 0 0)
+      )
+    )
+  )
+)

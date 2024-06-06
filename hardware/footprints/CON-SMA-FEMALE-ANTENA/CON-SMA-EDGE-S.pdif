@@ -1,0 +1,289 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "CONSMAEDGES"
+      (family "CON")
+      (package "RFSOLUTIONS_CONSMAEDGES")
+      (description "_SMA_Connector_Jack,_Female_Socket_-_Board_Edge,_End_Launch_Solder_")
+      (attribute "PKG_TYPE" "RFSOLUTIONS_CONSMAEDGES")
+      (attribute "MF" "RF_Solutions")
+      (attribute "MAXIMUM_PACKAGE_HEIGHT" "6.35mm")
+      (attribute "PACKAGE" "None")
+      (attribute "PRICE" "None")
+      (attribute "CHECK_PRICES" "https://www.snapeda.com/parts/CON-SMA-EDGE-S/RF+Solutions/view-part/?ref=eda")
+      (attribute "STANDARD" "Manufacturer_Recommendations")
+      (attribute "PARTREV" "1")
+      (attribute "SNAPEDA_LINK" "https://www.snapeda.com/parts/CON-SMA-EDGE-S/RF+Solutions/view-part/?ref=snap")
+      (attribute "MP" "CON-SMA-EDGE-S")
+      (attribute "PURCHASE-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=557794&manufacturer=RF_Solutions&part_name=CON-SMA-EDGE-S&search_term=sma_female_rf_")
+      (attribute "AVAILABILITY" "In_Stock")
+      (attribute "MANUFACTURER" "RF_Solutions")
+      (gate
+        (swap 1)
+        (symbol "CONSMAEDGES")
+        (pin "1" 1 (type PS))
+        (pin "2" G1 (type PS))
+        (pin "2__1" G2 (type PS))
+        (pin "2__2" G3 (type PS))
+        (pin "2__3" G4 (type PS))
+      )
+    )
+    (symbol "CONSMAEDGES"
+      (units THOU)
+      (graphic
+        (stroke 10.0)
+        (fill NONE)
+        (circle (pt -40 100) (pt 40 100))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -40.0 60.0) (pt 0.0 60.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 60.0) (pt 40.0 60.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 0.0) (pt -90.0 0.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -130.0 130.0) (pt -100.0 100.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -130.0 70.0) (pt -100.0 100.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 60.0) (pt 0.0 0.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (fill NONE)
+        (circle (pt -10 0) (pt 10 0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -100.0 100.0) (pt 100.0 100.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 100.0 0.0) (pt 0.0 0.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 0.0) (pt 0.0 -30.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 -30.0) (pt -30.0 -30.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 -30.0) (pt 30.0 -30.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -30.0 -30.0) (pt -50.0 -60.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 -30.0) (pt -20.0 -60.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 30.0 -30.0) (pt 10.0 -60.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -130.0 30.0) (pt -100.0 0.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -130.0 -30.0) (pt -100.0 0.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -100.0 0.0) (pt 0.0 0.0))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 100.0 100.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 100.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 100.0 -100.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 100.0 -200.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 100.0 -300.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+      )
+    )
+    (symbol "PIN_R180_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt -200.0 0.0))
+      )
+    )
+    (package "RFSOLUTIONS_CONSMAEDGES"
+      (units THOU)
+      (layer BASM
+        (graphic
+          (stroke 5.0)
+          (path (pt -68.9 -125.0) (pt -68.9 125.0))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -68.9 125.0) (pt -133.86 125.0))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -133.86 125.0) (pt -133.86 -125.0))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -133.86 -125.0) (pt -68.9 -125.0))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -133.86 -125.0) (pt -443.7 -125.0))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -443.7 -125.0) (pt -443.7 125.0))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -443.7 125.0) (pt -133.86 125.0))
+        )
+      )
+      (layer TSLK
+        (graphic
+          (stroke 7.87)
+          (circle (pt 90.55 0) (pt 98.43 0))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -453.54 -145.67) (pt 90.94 -145.67))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 90.94 -145.67) (pt 90.94 145.67))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 90.94 145.67) (pt -453.54 145.67))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -453.54 145.67) (pt -453.54 -145.67))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 5.0)
+          (path (pt -68.9 125.0) (pt -68.9 -125.0))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -68.9 -125.0) (pt -133.86 -125.0))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -133.86 -125.0) (pt -133.86 125.0))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -133.86 125.0) (pt -68.9 125.0))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -133.86 125.0) (pt -443.7 125.0))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -443.7 125.0) (pt -443.7 -125.0))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -443.7 -125.0) (pt -133.86 -125.0))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt 90.55 0) (pt 98.43 0))
+        )
+      )
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt -453.54 145.67) (pt 90.94 145.67))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 90.94 145.67) (pt 90.94 -145.67))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 90.94 -145.67) (pt -453.54 -145.67))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -453.54 -145.67) (pt -453.54 145.67))
+        )
+      )
+      (leg 1 (pt 0 0) (padstack 1))
+      (leg G1 (pt 0 106.3) (padstack 2))
+      (leg G2 (pt 0 -106.3) (padstack 3))
+      (leg G3 (pt 0 106.3) (padstack 4))
+      (leg G4 (pt 0 -106.3) (padstack 5))
+      (padstack 1
+        (pad (layer TCOP) (rectf 59.06 137.8 0 0.0 0))
+        (pad (layer TRES) (rectf 59.06 137.8 0 0.0 0))
+        (pad (layer TPST) (rectf 59.06 137.8 0 0.0 0))
+      )
+      (padstack 2
+        (pad (layer TCOP) (rectf 59.06 137.8 0 0.0 0))
+        (pad (layer TRES) (rectf 59.06 137.8 0 0.0 0))
+        (pad (layer TPST) (rectf 59.06 137.8 0 0.0 0))
+      )
+      (padstack 3
+        (pad (layer TCOP) (rectf 59.06 137.8 0 0.0 0))
+        (pad (layer TRES) (rectf 59.06 137.8 0 0.0 0))
+        (pad (layer TPST) (rectf 59.06 137.8 0 0.0 0))
+      )
+      (padstack 4
+        (pad (layer BCOP) (rectf 59.06 137.8 0 0.0 0))
+        (pad (layer BRES) (rectf 59.06 137.8 0 0.0 0))
+        (pad (layer BPST) (rectf 59.06 137.8 0 0.0 0))
+      )
+      (padstack 5
+        (pad (layer BCOP) (rectf 59.06 137.8 0 0.0 0))
+        (pad (layer BRES) (rectf 59.06 137.8 0 0.0 0))
+        (pad (layer BPST) (rectf 59.06 137.8 0 0.0 0))
+      )
+      (model CON-SMA-EDGE-S.step
+        (euler 0 0 0)
+        (offset 0 0 0)
+      )
+    )
+  )
+)
